@@ -51,4 +51,4 @@ Sistema desenvolvido para uma profissional de manicure e em uso real por ela e s
 
 ## Contato
 - E-mail: micael.vasconcelos@a.ucb.br
-- LinkedIn: _(adicionar)_
+- LinkedIn: _https://linkedin.com/in/micael-levergger-7906102bb_
