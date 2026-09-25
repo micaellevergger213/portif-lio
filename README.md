@@ -23,4 +23,4 @@ Estudante de Engenharia de Software (UCB, 6º semestre, conclusão em 2027) e es
 
 ## Contato
 - E-mail: micael.vasconcelos@a.ucb.br
-- LinkedIn: _(adicionar)_
+- LinkedIn: _https://linkedin.com/in/micael-levergger-7906102bb_
