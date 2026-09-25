@@ -1,17 +1,23 @@
 # Micael Levergger — Portfólio
 
-Estudante de Engenharia de Software (UCB, 6º semestre, conclusão em 2027) e estagiário de tecnologia na BBTS há mais de um ano, atuando com dados, automação e integrações.
+Estudante de Engenharia de Software (UCB, 6º semestre, conclusão em 2027) e estagiário de tecnologia na BBTS há mais de um ano, atuando com automação, low-code, dados e integrações.
 
 ## Stack
-- **Dados & BI:** Power BI (DAX, Power Query/M, modelagem dimensional), SQL, Python/Pandas, Databricks/Unity Catalog
-- **Automação & Low-code:** Power Automate (Cloud e Desktop/RPA), Power Apps, SharePoint
+- **Automação & Low-code:** Power Automate (Cloud e Desktop/RPA), Power Apps, SharePoint, Supravizio (BPMS)
+- **Banco de dados:** SQL, PostgreSQL, Supabase
+- **Desenvolvimento Web:** HTML, CSS, JavaScript
+- **Dados & BI:** Power BI (DAX, Power Query/M, modelagem dimensional), Python/Pandas, Databricks/Unity Catalog
 - **Integrações & DevOps:** APIs REST e SOAP, Git, Azure DevOps
+- **Práticas:** testes funcionais, documentação de processos, metodologias ágeis
 
 ## Experiência profissional — BBTS
 - Sistema de marcação de ausências em Power Apps + SharePoint, com fluxos de notificação no Power Automate
 - Integração SharePoint → API SOAP (LG Suíte Gen.te) para agendamento de férias
 - Automação RPA com Power Automate Desktop para coleta de dados em portal de preços
 - Criação e manutenção de subprocessos da Central de Serviços no BPMS Supravizio
+- Testes funcionais das automações e subprocessos desenvolvidos
+- Documentação dos processos e fluxos implementados
+- Trabalho em equipe com metodologias ágeis
 
 > Projetos corporativos: código não público.
 
