@@ -15,7 +15,29 @@ Estudante de Engenharia de Software (UCB, 6º semestre, conclusão em 2027) e es
 
 > Projetos corporativos: código não público.
 
-## Projetos
+## Projeto em destaque
+
+### Sistema de Agendamento para Manicure — [site em produção](https://famous-yeot-5e085d.netlify.app)
+Sistema desenvolvido para uma profissional de manicure e em uso real por ela e suas clientes.
+
+> ⚠️ Site em uso por cliente real — por favor, não realize agendamentos de teste.
+
+**Funcionalidades**
+- **Site público:** a cliente escolhe o serviço, uma data e um horário disponível, e confirma o agendamento pelo WhatsApp
+- **Painel administrativo (acesso restrito):** agenda com cancelamento, bloqueio de dias e horários e indicadores financeiros (faturamento, comparação entre períodos, serviços e clientes mais frequentes)
+
+**Decisões técnicas**
+- **Preço validado no servidor:** um trigger no PostgreSQL substitui o nome e o valor do serviço enviados pelo navegador pelos valores cadastrados, impedindo adulteração de preço
+- **Sem agendamento duplicado:** índice único parcial em (data, horário) para agendamentos confirmados garante consistência mesmo com requisições simultâneas
+- **Permissões mínimas:** usuários anônimos só podem inserir colunas específicas (grants por coluna)
+- **Dados pessoais protegidos:** funções administrativas (security definer) verificam o papel de administrador no JWT antes de retornar dados de clientes
+- **Segurança testada na prática:** chamadas reais à API simulando falsificação de preço, agendamento duplicado e acesso não autenticado às funções administrativas
+
+**Tecnologias:** HTML, CSS, JavaScript, Supabase (PostgreSQL, Auth, PostgREST), Netlify
+
+> Código em repositório privado.
+
+## Outros projetos
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
 | [Dashboard do Cliente](https://github.com/micaellevergger213/dados) | Protótipo de painel bancário com saldos, extrato, contratação de serviços e simulação de PIX/transferência | HTML, CSS |
@@ -23,4 +45,4 @@ Estudante de Engenharia de Software (UCB, 6º semestre, conclusão em 2027) e es
 
 ## Contato
 - E-mail: micael.vasconcelos@a.ucb.br
-- LinkedIn: _https://linkedin.com/in/micael-levergger-7906102bb_
+- LinkedIn: _(adicionar)_
